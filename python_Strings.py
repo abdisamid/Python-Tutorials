@@ -1,3 +1,4 @@
+# string in python represents set of characters, denoted by ' or " or '' or ""
 st = "Hello"
 st.find("l") # this method finds the letter "l" in the string st
 st.upper() # this method changes all of our letters to uppercases => "HELLO"
