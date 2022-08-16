@@ -21,3 +21,25 @@ def printme( str ):
    "This prints a passed string into this function"
    print (str)
    return'''
+   
+
+Calling a Function
+Defining a function gives it a name, specifies the parameters that are to be included in the function and structures the blocks of code.
+
+Once the basic structure of a function is finalized, you can execute it by calling it from another function or directly from the Python prompt. Following is an example to call the printme() function −
+
+#!/usr/bin/python3
+
+# Function definition is here
+def printme( str ):
+   "This prints a passed string into this function"
+   print (str)
+   return
+
+# Now you can call printme function
+printme("This is first call to the user defined function!")
+printme("Again second call to the same function")
+
+When the above code is executed, it produces the following result −
+
+This is first call to the user defined function! Again second call to the same function
