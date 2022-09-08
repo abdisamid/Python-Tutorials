@@ -1,5 +1,3 @@
-# Copyright © 2022 AlgoExpert LLC. All rights reserved.
-
 import random
 
 start = input('Enter the start of the range: ')
